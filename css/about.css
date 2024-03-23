@@ -1,0 +1,23 @@
+@media only screen and (max-width: 600px) {
+    .tablet, .desktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .mobile, .desktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .mobile, .tablet {
+        display: none;
+    }
+}
+
+nav a:hover {
+    color: #007BFF; /* Change link color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
